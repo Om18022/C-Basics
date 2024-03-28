@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+int a = 165;
+int b = 160;
+int c = 164;
+
+    if(a>b && a>c){
+        printf("%d is Big.",a);
+    }
+    else if(b>a && b>c){
+        printf("%d is Big.",b);
+    }
+    else if(c>a && c>b){
+        printf("%d is Big.",c);
+    }
+    return 0;
+}

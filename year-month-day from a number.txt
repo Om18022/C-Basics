@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+int n = 1354;
+int y, m, d;
+
+    y = n / 365;
+    n = n % 365;
+    m = n / 30;
+    n = n % 30;
+    d = n;
+    
+    printf("Year = %d \n Month = %d \n Day = %d \n",y, m, d);
+
+    return 0;
+}

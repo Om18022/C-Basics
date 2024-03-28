@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main() {
+   int n = 111;
+   int a = 0, rev;
+   int b = n;
+   
+   while(n>0){
+       rev = n % 10 ;
+       n = n / 10;
+       a = rev + (a * 10) ;           
+   }
+    if(b == a){
+        printf("Integer is palindrome.");
+    }else{
+        printf("Integer is not palindrome.");
+    }
+    return 0;
+}

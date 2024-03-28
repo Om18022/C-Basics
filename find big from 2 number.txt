@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+int a = 164;
+int b = 164;
+
+    if(a>b){
+        printf("%d is Big.",a);
+    }
+    else if(b>a){
+        printf("%d is Big.",b);
+    }
+    else{
+        printf("Both are Big.");
+    }
+    return 0;
+}

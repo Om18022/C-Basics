@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+int n = 12345, rev;
+int i = 0;
+
+    while(n>0){
+        rev = n % 10;
+        n = n / 10;
+        printf("%d",rev);
+    }
+
+    return 0;
+}

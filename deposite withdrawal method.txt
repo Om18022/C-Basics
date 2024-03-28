@@ -1,0 +1,31 @@
+#include <stdio.h>
+int main(){
+    
+
+    int balance = 10000;
+    cb(balance);
+    balance = w(balance, 1000);
+    cb(balance);
+    balance = d(balance, 2000);
+    cb(balance);
+
+    return 0;
+}
+
+void cb(int balance){
+    printf("%d \n",balance);
+}
+
+int d(int balance, int amount){
+    balance = balance + amount;
+    return balance;
+}
+
+int w(int balance, int amount){
+    if(balance<amount){
+        printf("please check your balance.");
+        return;
+    }
+    balance = balance - amount;
+    return balance;
+}

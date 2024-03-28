@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+ int n = 0;
+ 
+     if(n % 2 != 0){
+        printf("This number is Prime."); 
+     }else{
+        printf("This number is not Prime.");
+     }
+ 
+    return 0;
+}
